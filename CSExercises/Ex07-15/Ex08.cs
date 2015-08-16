@@ -10,7 +10,14 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("#Temperature Conversion from Centigrade to Fahrenheit");
+            Console.WriteLine("Please enter Temperature in Centigrade");
+
+            double Ctemperature = Convert.ToDouble(Console.ReadLine());
+            double Ftemperature = (1.8 * Ctemperature) + 32;
+
+            Console.WriteLine("Temperature in Fahrenheit Scale is {0}", Ftemperature);
+
         }
     }
 }
