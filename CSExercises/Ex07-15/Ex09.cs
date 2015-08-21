@@ -14,7 +14,7 @@ namespace CSExercises
             int xValue = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("x={0}\ty=?", xValue);
 
-            double yValue = ((2 * (xValue * xValue)) - ((4 * xValue) + 3));
+            double yValue = ((2 * (xValue * xValue)) - (4 * xValue) + 3);
             Console.WriteLine("The value of y is {0}", yValue);
 
         }

@@ -16,7 +16,7 @@ namespace CSExercises
             double Ctemperature = Convert.ToDouble(Console.ReadLine());
             double Ftemperature = (1.8 * Ctemperature) + 32;
 
-            Console.WriteLine("Temperature in Fahrenheit Scale is {0}", Ftemperature);
+            Console.WriteLine("Temperature in Fahrenheit Scale is {0} *F", Ftemperature);
 
         }
     }

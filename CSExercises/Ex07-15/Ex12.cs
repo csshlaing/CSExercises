@@ -10,11 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("Please enter the distance :");
+            Console.Write("Please enter the distance KM :");
             double dblDistance = Convert.ToDouble(Console.ReadLine());
 
-            double dblTotalFare = 2.40 + (dblDistance * 0.4);
-            Console.WriteLine("The total fare is {0:###.##}", dblTotalFare);
+            double dblTotalFare = Math.Round((2.40 + dblDistance * 0.4), 1);
+            Console.WriteLine("The total fare is {0:0.00}", dblTotalFare);
         }
     }
 }
